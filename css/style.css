@@ -32,6 +32,38 @@ body {
     box-sizing: border-box;
 }
 
+.card-custom {
+    background: var(--bg-black-100);
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-black-700);
+    text-align: center;
+}
+
+.body-custom {
+    background: var(--bg-black-100);
+}
+
+ol li {
+    color: var(--text-black-700);
+}
+ul li {
+    color: var(--text-black-700);
+}
+a{
+    text-decoration: none;
+}
+.af-lg{
+    font-size: 1.3rem;
+    color: var(--skin-color);
+}
 ::before,
 ::after {
     box-sizing: border-box;
@@ -345,6 +377,12 @@ h3.my-profession {
     margin: auto;
 
 }
+
+.programe-overcome .programe-overcome-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 
 /* about */
 
@@ -1304,7 +1342,7 @@ td {
 }
 
 
-.fa-i{
+.fa-i {
     font-size: 30px;
     color: var(--skin-color);
     padding: 0 10px;
@@ -1363,7 +1401,7 @@ td {
         display: none;
     }
 
-    .blog .data-container .img-box img{
+    .blog .data-container .img-box img {
         width: 100%;
     }
 
@@ -1430,8 +1468,9 @@ td {
     .gallery .collection__gallery .item {
         margin: 0;
     }
-    
-    .blog-page .data-content .img-box{
-        padding:0;
-        margin:0;
+
+    .blog-page .data-content .img-box {
+        padding: 0;
+        margin: 0;
+    }
 }
